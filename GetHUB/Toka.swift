@@ -9,7 +9,6 @@ import SwiftUI
 
 struct Toka: View {
     var body: some View {
-//        HStack {
             ZStack {
                 LinearGradient(colors: [.purple.opacity(0.4), .blue.opacity(0.4)], startPoint: .topLeading, endPoint: .bottomTrailing)
                     .ignoresSafeArea()
