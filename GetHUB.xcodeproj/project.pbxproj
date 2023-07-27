@@ -106,8 +106,8 @@
 				EC490E8F2A722B0700C0C930 /* ContentView.swift */,
 				EC490EF72A723B2100C0C930 /* Dana.swift */,
 				EC490EF92A723B2B00C0C930 /* sara.swift */,
-				EC490EFB2A723B3300C0C930 /* razan.swift */,
 				EC490EFD2A723B3D00C0C930 /* Toka.swift */,
+				EC490EFB2A723B3300C0C930 /* razan.swift */,
 				EC490E912A722B0A00C0C930 /* Assets.xcassets */,
 				EC490E932A722B0A00C0C930 /* Preview Content */,
 			);
