@@ -33,7 +33,7 @@ struct sara: View {
                     .font(.system(size:20))
                 Text("🥹🫶🏻")
                     .bold()
-                    .font(.system(size:35))
+                    .font(.system(size:34))
                 
             }
             
