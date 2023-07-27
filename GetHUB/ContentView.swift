@@ -14,10 +14,10 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
-            Text("this is great")
+            Text("this is better")
         }
         .multilineTextAlignment(.center)
-        .font(.system(size: 100))
+        .font(.system(size: 40))
         .foregroundColor(.brown)
         .padding()
     }
