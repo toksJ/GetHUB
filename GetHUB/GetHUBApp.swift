@@ -1,0 +1,17 @@
+//
+//  GetHUBApp.swift
+//  GetHUB
+//
+//  Created by TokaJaber on 27/07/2023.
+//
+
+import SwiftUI
+
+@main
+struct GetHUBApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
