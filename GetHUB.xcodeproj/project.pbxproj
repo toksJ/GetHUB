@@ -14,6 +14,10 @@
 		EC490E9F2A722B0A00C0C930 /* GetHUBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC490E9E2A722B0A00C0C930 /* GetHUBTests.swift */; };
 		EC490EA92A722B0A00C0C930 /* GetHUBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC490EA82A722B0A00C0C930 /* GetHUBUITests.swift */; };
 		EC490EAB2A722B0A00C0C930 /* GetHUBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC490EAA2A722B0A00C0C930 /* GetHUBUITestsLaunchTests.swift */; };
+		EC490EF82A723B2100C0C930 /* Dana.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC490EF72A723B2100C0C930 /* Dana.swift */; };
+		EC490EFA2A723B2B00C0C930 /* sara.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC490EF92A723B2B00C0C930 /* sara.swift */; };
+		EC490EFC2A723B3300C0C930 /* razan.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC490EFB2A723B3300C0C930 /* razan.swift */; };
+		EC490EFE2A723B3D00C0C930 /* Toka.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC490EFD2A723B3D00C0C930 /* Toka.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		EC490EA42A722B0A00C0C930 /* GetHUBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetHUBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC490EA82A722B0A00C0C930 /* GetHUBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetHUBUITests.swift; sourceTree = "<group>"; };
 		EC490EAA2A722B0A00C0C930 /* GetHUBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetHUBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC490EF72A723B2100C0C930 /* Dana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dana.swift; sourceTree = "<group>"; };
+		EC490EF92A723B2B00C0C930 /* sara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sara.swift; sourceTree = "<group>"; };
+		EC490EFB2A723B3300C0C930 /* razan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = razan.swift; sourceTree = "<group>"; };
+		EC490EFD2A723B3D00C0C930 /* Toka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toka.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				EC490E8D2A722B0700C0C930 /* GetHUBApp.swift */,
 				EC490E8F2A722B0700C0C930 /* ContentView.swift */,
+				EC490EF72A723B2100C0C930 /* Dana.swift */,
+				EC490EF92A723B2B00C0C930 /* sara.swift */,
+				EC490EFB2A723B3300C0C930 /* razan.swift */,
+				EC490EFD2A723B3D00C0C930 /* Toka.swift */,
 				EC490E912A722B0A00C0C930 /* Assets.xcassets */,
 				EC490E932A722B0A00C0C930 /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC490EFC2A723B3300C0C930 /* razan.swift in Sources */,
+				EC490EFA2A723B2B00C0C930 /* sara.swift in Sources */,
 				EC490E902A722B0700C0C930 /* ContentView.swift in Sources */,
 				EC490E8E2A722B0700C0C930 /* GetHUBApp.swift in Sources */,
+				EC490EFE2A723B3D00C0C930 /* Toka.swift in Sources */,
+				EC490EF82A723B2100C0C930 /* Dana.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
