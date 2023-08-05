@@ -9,7 +9,31 @@ import SwiftUI
 
 struct Dana: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+ ZStack {
+            LinearGradient(colors: [.pink.opacity(0.4), .green.opacity(0.4)], startPoint: .topLeading, endPoint: .bottomTrailing)
+                .ignoresSafeArea()
+            VStack{
+                Image("books")
+                    .resizable()
+                    .scaledToFit()
+                
+                Text("Hi I am Dana")
+                    .bold()
+                    .italic()
+                    .font(.system(size:40))
+                Text("i love reading ")
+                    .italic()
+                    .font(.system(size:30))
+                
+                Text("more than anything")
+                    .font(.system(size:40))
+                Text(":)")
+                
+                
+                
+            }
+        }
+        
     }
 }
 
