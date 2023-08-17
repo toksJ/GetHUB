@@ -9,7 +9,32 @@ import SwiftUI
 
 struct razan: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Color(.systemIndigo)
+            
+            
+            VStack{
+                Image("Image")
+                    .scaledToFit()
+                    .offset(y:-100)
+                Text("""
+                     hi i am Razan :)
+                     i like arts n crafts
+                     """)
+                    .font(.title)
+                    .italic()
+                    .offset(y:-50)
+                    .foregroundColor(.white)
+                   
+                
+                Text(" certified procrastinator (pls dont be like me)")
+                    .foregroundColor(.white)
+                
+                    
+                  
+                
+            }
+        }
     }
 }
 
